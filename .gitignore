@@ -2,8 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-src/gr/aueb/cf/ch4/Eksigisi
-src/gr/aueb/cf/ch4/Stars
+src/gr/aueb/cf/ch4/Eksigisi.java
+src/gr/aueb/cf/ch4/Stars.java
 
 
 ### Eclipse ###
