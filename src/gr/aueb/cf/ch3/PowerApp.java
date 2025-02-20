@@ -5,21 +5,20 @@ import java.util.Scanner;
 public class PowerApp {
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-
-        int a = 0;
-        int b = 0;
-        int result = 1;
+        Scanner scanner = new Scanner(System.in);
+        int base = 0;
+        int power = 0;
         int i = 1;
+        int result = 1;
 
-        System.out.println("Please insert a, b: ");
-        a = in.nextInt();
-        b = in.nextInt();
+        System.out.println("Insert base and power");
+        base = scanner.nextInt();
+        power = scanner.nextInt();
 
-        while (i <= b) {
-            result = result * a;
+        while (i <= power) {
+            result *= base;     // result = result * base;
             i++;
         }
-        System.out.printf("%d^%d = %d", a, b, result);
+        System.out.println("Result: " + result);
     }
 }
