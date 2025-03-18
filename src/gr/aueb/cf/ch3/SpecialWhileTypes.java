@@ -9,9 +9,8 @@ public class SpecialWhileTypes {
         int num;
         Scanner in = new Scanner(System.in);
 
-        while ((num = in.nextInt()) >= 0); {
+        while ((num = in.nextInt()) >= 0);
 
-        }
 
         while(i <= 0) {
             System.out.println("Never gets in");

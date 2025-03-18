@@ -9,16 +9,18 @@ public class SumMul {
         int mul = 1;
 
         while (i <= 10) {
-            sum += 1;
+            sum += i;
             i++;
+            System.out.println(sum);
 
         }
 
         System.out.println("");
 
         while (j <= 10) {
-            mul = mul * 1;
+            mul = mul * j;
             j++;
+            System.out.println(mul);
         }
     }
 }
